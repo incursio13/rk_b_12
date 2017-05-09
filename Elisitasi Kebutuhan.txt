@@ -1,0 +1,16 @@
+Elisitasi Kebutuhan
+
+Deskripsi : Aplikasi bertujuan untuk mempermudah orang yang kehilangan barang untuk menemukan barangnya.
+Kebutuhan:
+- Terdapat 3 jenis user: 1. Orang yang kehilangan barang
+			2. Orang yang menemukan barang
+ 			3. Admin
+- Terdapat halaman barang hilang yang berisi informasi barang-barang yang hilang
+- Terdapat halama barang temuan yang berisi informasi barang-barang yang temuan
+- Data barang berisi: nama barang, gambar, tempat barang hilang/ditemukan, waktu kejadian, keterangan tambahan(ciri-ciri barang), status barang
+- Data user berisi orang yang kehilangan barang dan orang yang menemukan barang: nama, nrp, password, telpon, tempat tingal
+- Terdapat fungsi untuk search barang
+- Terdapat informasi yang berisi kontak pusat (no telpon admin)
+- Status barang ada dua jenis:
+	1. Open, jika barang yang hilang masih belum ditemukan
+	2. Close, jika barang yang hilang sudah ditemukan
