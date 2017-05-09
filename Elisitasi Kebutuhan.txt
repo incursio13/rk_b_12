@@ -20,9 +20,9 @@ Kebutuhan:
 	
 	
 Pembagian Tugas?
-1 halaman barang hilang >> fitur search		: Tomson
+1 halaman barang hilang >> fitur search		: tomson
 2 tambah barang hilang				: andre
-3 halaman barang ditemukan >> fitur search	: Tomson
+3 halaman barang ditemukan >> fitur search	: tomson
 4 tambah barang ditemukan			: andre
 5 admin >> membuat user				: hendri
 6 chatting/message >> security Q&A		: hendri
