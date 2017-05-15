@@ -35,7 +35,7 @@
         Tambah Barang Temuan
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="../pages/"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">Tambah Barang Temuan</li>
       </ol>
     </section>
