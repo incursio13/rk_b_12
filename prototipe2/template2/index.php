@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<?php session_start();
+ if(isset($_GET['input'])){
+    $_SESSION['login']='login';
+    header('Location: ../backend/pages/');
+ }
+ elseif (isset($_GET['logout'])) {
+    session_destroy();
+    header('Location: index.php');
+ }
+ ?>
+
 <html lang="en">
 
 <head>
@@ -21,6 +32,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,9 +75,23 @@
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
-                    <li class="page-scroll">
+                    <?php 
+                    if (isset( $_SESSION['login'])) {
+                        echo '<li class="page-scroll">
+                        <a href="../backend/pages/" class="portfolio-link" data-toggle="modal">User</a>
+                        </li>
+                        <li ><a><form action="index.php" method="get">
+                            <input type="submit" name="logout" style="background:none;border:none;" value="LOGOUT">
+                            </form></a>
+                        </li>';
+                    }
+                    else{
+                        echo '<li class="page-scroll">
                         <a href="#login_modal1" class="portfolio-link" data-toggle="modal">Login</a>
-                    </li>
+                        </li>';
+                    }
+                    
+                    ?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -370,9 +396,9 @@
                             <h2>LOGIN</h2>
                             <hr class="star-primary">
                             <!-- <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p> -->
-                            <form action="../backend/pages/">
+                            <form action="index.php" method="get">
                                 <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="username" required>
+                                    <input class="form-control" name="input" type="text" placeholder="username" required>
                                 </div>
                                 <div class="form-group">
                                     <input class="form-control" type="password" placeholder="password" required>
@@ -919,6 +945,7 @@
         </div>
     </div>
 
+    </script>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
