@@ -140,7 +140,8 @@
     //Initialize Select2 Elements
     //Date picker
     $('#datepicker').datepicker({
-      autoclose: true
+      autoclose: true,
+      format: 'dd MM yyyy'
     });
   });
 </script>

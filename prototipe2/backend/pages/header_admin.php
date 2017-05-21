@@ -120,7 +120,9 @@
                   <a href="profil.php" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  <a class="btn btn-default btn-flat"><form action="../../template2/index.php" method="get">
+                    <input type="submit" value="Logout" name="logout" style="background:none;border:none;">
+                  </form></a>
                 </div>
               </li>
             </ul>

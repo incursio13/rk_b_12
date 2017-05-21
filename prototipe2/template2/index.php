@@ -431,7 +431,7 @@
                             <p>Saya telah kehilangan iphone 6</p>
                             <ul class="list-inline item-details" style="margin-bottom:7px">
                                 <li>Status:
-                                    <strong><a href="">Belum ditemukan</a>
+                                    <strong><a href="">Not Solved</a>
                                     </strong>
                                 </li>
                                 <li>Tanggal hilang:
@@ -474,7 +474,7 @@
                             <p>Saya telah kehilangan laptop msi</p>
                             <ul class="list-inline item-details" style="margin-bottom:7px">
                                 <li>Status:
-                                    <strong><a href="">Belum ditemukan</a>
+                                    <strong><a href="">Not Solved</a>
                                     </strong>
                                 </li>
                                 <li>Tanggal hilang:
@@ -517,7 +517,7 @@
                             <p>Saya telah kehilangan jam tangan</p>
                             <ul class="list-inline item-details" style="margin-bottom:7px">
                                 <li>Status:
-                                    <strong><a href="">Belum ditemukan</a>
+                                    <strong><a href="">Not Solved</a>
                                     </strong>
                                 </li>
                                 <li>Tanggal hilang:
@@ -603,7 +603,7 @@
                             <p>Saya telah kehilangan kunci motor</p>
                             <ul class="list-inline item-details" style="margin-bottom:7px">
                                 <li>Status:
-                                    <strong><a href="">Belum ditemukan</a>
+                                    <strong><a href="">Not Solved</a>
                                     </strong>
                                 </li>
                                 <li>Tanggal hilang:
@@ -646,7 +646,7 @@
                             <p>Saya telah kehilangan charger laptop acer</p>
                             <ul class="list-inline item-details" style="margin-bottom:7px">
                                 <li>Status:
-                                    <strong><a href="">Belum ditemukan</a>
+                                    <strong><a href="">Not Solved</a>
                                     </strong>
                                 </li>
                                 <li>Tanggal hilang:
@@ -690,22 +690,17 @@
                             <img src="img/portfolio/iphone6.jpg" class="img-responsive img-centered" alt="">
                             <p>Saya telah menemukan iphone 6</p>
                             <ul class="list-inline item-details" style="margin-bottom:7px">
-                                <li>Status:
-                                    <strong><a href="">Belum ditemukan</a>
+                                <li>Lokasi ditemukan:
+                                    <strong><a href="">PB1</a>
                                     </strong>
                                 </li>
-                                <li>Tanggal hilang:
-                                    <strong><a href="">1 April 2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
                             <ul class="list-inline item-details" style="margin-top:7px">
                                 <li>Ditemukan oleh:
-                                    <strong><a href="">-</a>
+                                    <strong><a href="">User</a>
                                     </strong>
                                 </li>
                                 <li>Tanggal ditemukan:
-                                    <strong><a href="">-</a>
+                                    <strong><a href="">29 April 2017</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -754,7 +749,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -792,7 +787,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -830,7 +825,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -868,7 +863,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
