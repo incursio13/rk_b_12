@@ -103,7 +103,7 @@
     <!-- Portfolio Grid Section -->
     <!-- Barang Hilang -->
     <br><br><br>
-    <section id="barang_hilang" class="container content-section text-center">
+    <section id="portfolio" class="container content-section text-center">
         <div class="row">
             <div class="col-md-3">
                 <h3> Pencarian Barang</h3>

@@ -121,7 +121,7 @@
             <div class="col-md-9">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>Barang Hilang Terbaru</h2>
+                        <h2>Hasil Pencarian Barang</h2>
                         <hr class="star-primary">
                     </div>
                 </div>
