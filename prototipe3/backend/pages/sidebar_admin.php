@@ -27,7 +27,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="tambah_barang_hilang.php"><i class="fa fa-circle-o"></i> Tambah Barang</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> List</a></li>
+            <li><a href="list_barang_hilang.php"><i class="fa fa-circle-o"></i> List</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -39,7 +39,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="tambah_barang_temuan.php"><i class="fa fa-circle-o"></i> Tambah Barang</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> List</a></li>
+            <li><a href="list_barang_temuan.php"><i class="fa fa-circle-o"></i> List</a></li>
           </ul>
         </li>
         <li class="treeview">
