@@ -36,7 +36,7 @@
         Home
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
         
       </ol>
     </section>
@@ -48,10 +48,10 @@
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
               <div class="panel panel-default">
-                <div class="panel-heading">Home</div>
+                <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                  Selamat datang.
+                  <center>Selamat datang Admin</center>
                 </div>
               </div>
             </div>
