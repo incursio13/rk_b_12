@@ -123,6 +123,7 @@
                     <div class="col-lg-12 text-center">
                         <h2>Daftar Lengkap Barang Hilang</h2>
                         <hr class="star-primary">
+                        <br><br>
                     </div>
                 </div>
                 <div class="row">
@@ -185,6 +186,18 @@
                             </div>
                             <img src="img/portfolio/charger.jpg" class="img-responsive" alt="Submarine"  style="height:200px">
                         </a>
+                    </div>
+
+
+                    <div class="box-footer clearfix">
+                    <br>
+                        <ul class="pagination pagination-sm pull-center" style="margin-top:70px" >
+                            <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
                     </div>
                 </div>       
         </div>
