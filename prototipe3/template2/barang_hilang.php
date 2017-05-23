@@ -188,6 +188,72 @@
                         </a>
                     </div>
 
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/atm.jpg" class="img-responsive" alt="Cabin" style="height:200px">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/buku.jpg" class="img-responsive" alt="Cabin" style="height:200px">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/kabel.jpg" class="img-responsive" alt="Cabin" style="height:200px">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/kacamata.jpg" class="img-responsive" alt="Cabin" style="height:200px">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/kalkulator.jpg" class="img-responsive" alt="Cabin" style="height:200px">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/tas.jpg" class="img-responsive" alt="Cabin" style="height:200px">
+                        </a>
+                    </div>
+
 
                     <div class="box-footer clearfix">
                     <br>
@@ -587,7 +653,270 @@
             </div>
         </div>
     </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Kartu atm BCA</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/atm.jpg" class="img-responsive img-centered" alt="">
+                            <p>Saya telah kehilangan atm bca</p>
+                            <ul class="list-inline item-details" style="margin-bottom:7px">
+                                <li>Status:
+                                    <strong><a href="">Not Solved</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal hilang:
+                                    <strong><a href="">29 April 2017</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details" style="margin-top:7px">
+                                <li>Ditemukan oleh:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal ditemukan:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>buku c++</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/buku.jpg" class="img-responsive img-centered" alt="">
+                            <p>Saya telah kehilangan bukuc++</p>
+                            <ul class="list-inline item-details" style="margin-bottom:7px">
+                                <li>Status:
+                                    <strong><a href="">Not Solved</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal hilang:
+                                    <strong><a href="">30 April 2017</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details" style="margin-top:7px">
+                                <li>Ditemukan oleh:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal ditemukan:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Kabel rj45</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/kabel.jpg" class="img-responsive img-centered" alt="">
+                            <p>Saya telah kehilangan kabel rj45</p>
+                            <ul class="list-inline item-details" style="margin-bottom:7px">
+                                <li>Status:
+                                    <strong><a href="">Not Solved</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal hilang:
+                                    <strong><a href="">01 Mei 2017</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details" style="margin-top:7px">
+                                <li>Ditemukan oleh:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal ditemukan:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>kacamata</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/kacamata.jpg" class="img-responsive img-centered" alt="">
+                            <p>Saya telah kehilangan kacamata</p>
+                            <ul class="list-inline item-details" style="margin-bottom:7px">
+                                <li>Status:
+                                    <strong><a href="">Not Solved</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal hilang:
+                                    <strong><a href="">02 Mei 2017</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details" style="margin-top:7px">
+                                <li>Ditemukan oleh:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal ditemukan:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>kalkulator</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/kalkulator.jpg" class="img-responsive img-centered" alt="">
+                            <p>Saya telah kehilangan kalkulator</p>
+                            <ul class="list-inline item-details" style="margin-bottom:7px">
+                                <li>Status:
+                                    <strong><a href="">Not Solved</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal hilang:
+                                    <strong><a href="">03 Mei 2017</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details" style="margin-top:7px">
+                                <li>Ditemukan oleh:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal ditemukan:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>tas</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/tas.jpg" class="img-responsive img-centered" alt="">
+                            <p>Saya telah kehilangan tas</p>
+                            <ul class="list-inline item-details" style="margin-bottom:7px">
+                                <li>Status:
+                                    <strong><a href="">Not Solved</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal hilang:
+                                    <strong><a href="">03 Mei 2017</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details" style="margin-top:7px">
+                                <li>Ditemukan oleh:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                                <li>Tanggal ditemukan:
+                                    <strong><a href="">-</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
     </script>
     <!-- jQuery -->
