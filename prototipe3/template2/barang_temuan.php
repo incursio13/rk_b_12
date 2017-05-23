@@ -103,13 +103,13 @@
     <!-- Portfolio Grid Section -->
     <!-- Barang Hilang -->
     <br><br><br>
-    <section id="portfolio" class="container content-section text-center">
+    <section id="barang_hilang" class="container content-section text-center">
         <div class="row">
             <div class="col-md-3">
                 <h3> Pencarian Barang</h3>
                 <div class="list-group">    
                     <div class="search">
-                        <form method="POST" action="caribarang.php" role="search">
+                        <form method="POST" action="cari_barang_temuan.php" role="search">
                         <input type="text" name="cari" class="form-control" maxlength="30" placeholder="Search" />
                         <br>
                         <button type="submit" class="btn btn-primary btn-sm">Cari</button>
@@ -121,7 +121,7 @@
             <div class="col-md-9">
                 <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Barang Temuan Terbaru</h2>
+                    <h2>Daftar Lengkap Barang Temuan</h2>
                     <hr class="star-primary">
                 </div>
             </div>

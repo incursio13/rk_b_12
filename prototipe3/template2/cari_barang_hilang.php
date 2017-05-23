@@ -109,7 +109,7 @@
                 <h3> Pencarian Barang</h3>
                 <div class="list-group">    
                     <div class="search">
-                        <form method="POST" action="cari_barang_hilang.php" role="search">
+                        <form method="POST" action="caribarang.php" role="search">
                         <input type="text" name="cari" class="form-control" maxlength="30" placeholder="Search" />
                         <br>
                         <button type="submit" class="btn btn-primary btn-sm">Cari</button>
@@ -121,21 +121,12 @@
             <div class="col-md-9">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>Daftar Lengkap Barang Hilang</h2>
+                        <h2>Hasil Pencarian Barang Hilang</h2>
                         <hr class="star-primary">
                     </div>
                 </div>
+
                 <div class="row">
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/iphone6.jpg" class="img-responsive" alt="Cabin" style="height:200px">
-                        </a>
-                    </div>
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
@@ -146,46 +137,7 @@
                             <img src="img/portfolio/laptop.jpg" class="img-responsive" alt="Slice of cake" style="height:200px">
                         </a>
                     </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal" >
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/jam.jpg" class="img-responsive" alt="Circus tent" style="height:200px">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/dompet.jpg" class="img-responsive" alt="Game controller"  style="height:200px">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/kunci.jpg" class="img-responsive" alt="Safe" style="height:200px">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/charger.jpg" class="img-responsive" alt="Submarine"  style="height:200px">
-                        </a>
-                    </div>
+                    
                 </div>       
         </div>
     </section>
@@ -316,49 +268,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>iPhone 6</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/iphone6.jpg" class="img-responsive img-centered" alt="">
-                            <p>Saya telah kehilangan iphone 6</p>
-                            <ul class="list-inline item-details" style="margin-bottom:7px">
-                                <li>Status:
-                                    <strong><a href="">Not Solved</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal hilang:
-                                    <strong><a href="">1 April 2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <ul class="list-inline item-details" style="margin-top:7px">
-                                <li>Ditemukan oleh:
-                                    <strong><a href="">-</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal ditemukan:
-                                    <strong><a href="">-</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -402,179 +312,6 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Jam Tangan</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/jam.jpg" class="img-responsive img-centered" alt="" style="max-width:70%">
-                            <p>Saya telah kehilangan jam tangan</p>
-                            <ul class="list-inline item-details" style="margin-bottom:7px">
-                                <li>Status:
-                                    <strong><a href="">Not Solved</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal hilang:
-                                    <strong><a href="">1 Mei 2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <ul class="list-inline item-details" style="margin-top:7px">
-                                <li>Ditemukan oleh:
-                                    <strong><a href="">-</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal ditemukan:
-                                    <strong><a href="">-</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Dompet</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/dompet.jpg" class="img-responsive img-centered" alt=""  style="max-width:70%">
-                            <p>Saya telah kehilangan dompet</p>
-                            <ul class="list-inline item-details" style="margin-bottom:7px">
-                                <li>Status:
-                                    <strong><a href="">Solved</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal hilang:
-                                    <strong><a href="">23 April 2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <ul class="list-inline item-details" style="margin-top:7px">
-                                <li>Ditemukan oleh:
-                                    <strong><a href="">Hendri Febriansyah</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal ditemukan:
-                                    <strong><a href="">24 April 2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Kunci Motor</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/kunci.jpg" class="img-responsive img-centered" alt="">
-                            <p>Saya telah kehilangan kunci motor</p>
-                            <ul class="list-inline item-details" style="margin-bottom:7px">
-                                <li>Status:
-                                    <strong><a href="">Not Solved</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal hilang:
-                                    <strong><a href="">2 Mei 2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <ul class="list-inline item-details" style="margin-top:7px">
-                                <li>Ditemukan oleh:
-                                    <strong><a href="">-</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal ditemukan:
-                                    <strong><a href="">-</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Charger Laptop Acer</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/charger.jpg" class="img-responsive img-centered" alt="">
-                            <p>Saya telah kehilangan charger laptop acer</p>
-                            <ul class="list-inline item-details" style="margin-bottom:7px">
-                                <li>Status:
-                                    <strong><a href="">Not Solved</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal hilang:
-                                    <strong><a href="">30 April 2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <ul class="list-inline item-details" style="margin-top:7px">
-                                <li>Ditemukan oleh:
-                                    <strong><a href="">-</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal ditemukan:
-                                    <strong><a href="">-</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     
     </script>
     <!-- jQuery -->
