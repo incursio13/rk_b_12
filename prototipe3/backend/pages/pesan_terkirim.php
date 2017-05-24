@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>TCARI | Inbox</title>
+  <title>TCARI | Pesan Terkirim</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -31,12 +32,10 @@
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
-        Inbox <small>12 new messages</small>
-      </h1>
+      <h1>Pesan Terkirim</h1>
       <ol class="breadcrumb">
         <li><a href="../pages/"><i class="fa fa-home"></i> Home</a></li>
-        <li class="active">Inbox</li>
+        <li class="active">Pesan Terkirim</li>
         
       </ol>
     </section>
@@ -47,7 +46,7 @@
         <div class="col-md-12">
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Inbox</h3>
+              <h3 class="box-title">Pesan Terkirim</h3>
 
               <div class="box-tools pull-right">
                 <div class="has-feedback">
@@ -86,8 +85,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Hendri Febriansyah</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Hendri Febriansyah</a></td>
+                    <td class="mailbox-subject"><b>Tugas IMK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"></td>
                     <td class="mailbox-date">5 mins ago</td>
@@ -95,8 +94,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Andreas Galang</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Andreas Galang</a></td>
+                    <td class="mailbox-subject"><b>Tugas IMK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
                     <td class="mailbox-date">28 mins ago</td>
@@ -104,8 +103,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Faisal</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Faisal</a></td>
+                    <td class="mailbox-subject"><b>Tugas IMK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
                     <td class="mailbox-date">11 hours ago</td>
@@ -113,8 +112,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Yoga</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Yoga</a></td>
+                    <td class="mailbox-subject"><b>Tugas IMK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"></td>
                     <td class="mailbox-date">15 hours ago</td>
@@ -122,8 +121,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Rafiar</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Rafiar</a></td>
+                    <td class="mailbox-subject"><b>Tugas MPPL</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
                     <td class="mailbox-date">Yesterday</td>
@@ -131,8 +130,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Alexander Pierce</a></td>
+                    <td class="mailbox-subject"><b>Tugas MPPL</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
                     <td class="mailbox-date">2 days ago</td>
@@ -140,8 +139,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Alexander Pierce</a></td>
+                    <td class="mailbox-subject"><b>Tugas MPPL</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
                     <td class="mailbox-date">2 days ago</td>
@@ -149,8 +148,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Hendri Febriansyah</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Hendri Febriansyah</a></td>
+                    <td class="mailbox-subject"><b>Tugas MPPL</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"></td>
                     <td class="mailbox-date">2 days ago</td>
@@ -158,8 +157,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Hendri Febriansyah</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Hendri Febriansyah</a></td>
+                    <td class="mailbox-subject"><b>Tugas RK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"></td>
                     <td class="mailbox-date">2 days ago</td>
@@ -167,8 +166,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Alexander Pierce</a></td>
+                    <td class="mailbox-subject"><b>Tugas RK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"></td>
                     <td class="mailbox-date">2 days ago</td>
@@ -176,8 +175,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Rafiar</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Rafiar</a></td>
+                    <td class="mailbox-subject"><b>Tugas RK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
                     <td class="mailbox-date">4 days ago</td>
@@ -185,8 +184,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Rafiar</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Rafiar</a></td>
+                    <td class="mailbox-subject"><b>Tugas RK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"></td>
                     <td class="mailbox-date">12 days ago</td>
@@ -194,8 +193,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Alexander Pierce</a></td>
+                    <td class="mailbox-subject"><b>Tugas RK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
                     <td class="mailbox-date">12 days ago</td>
@@ -203,8 +202,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Faisal</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Faisal</a></td>
+                    <td class="mailbox-subject"><b>Tugas RK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
                     <td class="mailbox-date">14 days ago</td>
@@ -212,8 +211,8 @@
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="read-mail.html">Faisal</a></td>
-                    <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...
+                    <td class="mailbox-name"><a href="read-mail.html">To: Faisal</a></td>
+                    <td class="mailbox-subject"><b>Tugas RK</b> - Trying to find a solution to this problem...
                     </td>
                     <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
                     <td class="mailbox-date">15 days ago</td>
