@@ -108,7 +108,7 @@
                     <div class="intro-text">
                         <h1 class="name">Tcari</h1>
                         <hr class="star-light">
-                        <form method="POST" action="caribarang.php" role="search" class="col-md-4 text-center  col-md-offset-4">
+                        <form method="POST" action="cari_barang_hilang.php" role="search" class="col-md-4 text-center  col-md-offset-4">
                             <div class="input-group">
                                 <input type="text" name="cari" class="form-control" placeholder="Masukkan Barang Yang DIcari">
                                 <div class="input-group-btn">
