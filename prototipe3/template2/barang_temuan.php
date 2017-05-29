@@ -34,13 +34,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">    
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body id="page-top" class="index">
@@ -69,12 +62,7 @@
                     <li class="page-scroll">
                         <a href="barang_temuan.php">Barang Temuan</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
+
                     <?php 
                     if (isset( $_SESSION['login'])) {
                         echo '<li class="page-scroll">
@@ -104,22 +92,8 @@
     <!-- Barang Hilang -->
     <br><br><br>
     <section id="portfolio" class="container content-section text-center">
-        <div class="row">
-            <div class="col-md-3">
-                <h3> Pencarian Barang</h3>
-                <div class="list-group">    
-                    <div class="search">
-                        <form method="POST" action="cari_barang_temuan.php" role="search">
-                        <input type="text" name="cari" class="form-control" maxlength="30" placeholder="Search" />
-                        <br>
-                        <button type="submit" class="btn btn-primary btn-sm">Cari</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-9">
-                <div class="row">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Daftar Lengkap Barang Temuan</h2>
                     <hr class="star-primary">
@@ -127,7 +101,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -137,7 +111,7 @@
                         <img src="img/portfolio/iphone6.jpg" class="img-responsive" alt="Cabin" style="height:200px">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -147,7 +121,7 @@
                         <img src="img/portfolio/laptop.jpg" class="img-responsive" alt="Slice of cake" style="height:200px">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal" >
                         <div class="caption">
                             <div class="caption-content">
@@ -157,7 +131,7 @@
                         <img src="img/portfolio/jam.jpg" class="img-responsive" alt="Circus tent" style="height:200px">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -167,7 +141,7 @@
                         <img src="img/portfolio/dompet.jpg" class="img-responsive" alt="Game controller"  style="height:200px">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -177,7 +151,7 @@
                         <img src="img/portfolio/kunci.jpg" class="img-responsive" alt="Safe" style="height:200px">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -188,7 +162,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -199,7 +173,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -210,7 +184,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -221,7 +195,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -232,7 +206,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -243,7 +217,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-3 portfolio-item">
                     <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -268,47 +242,21 @@
 
             </div>       
         </div>
+
+        <!-- <div class="col-md-3">
+                <h3> Pencarian Barang</h3>
+                <div class="list-group">    
+                    <div class="search">
+                        <form method="POST" action="cari_barang_temuan.php" role="search">
+                        <input type="text" name="cari" class="form-control" maxlength="30" placeholder="Search" />
+                        <br>
+                        <button type="submit" class="btn btn-primary btn-sm">Cari</button>
+                        </form>
+                    </div>
+                </div>
+            </div> -->
     </section>
     
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Bantu menemukan barang hilang.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>sebab, hanya jika kita menemukan maka kita tahu sesuatu itu ada. Tapi jika kita tidak menemukan, kita tak bisa mengatakan bahwa sesuatu adalah tidak ada</p>
-                </div>
-<!--                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div> -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row text-center">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Hubungi Kami</h2>
-                <h3>WA/SMS/TELP : 089872829292</h3>
-                <p><a href="mailto:tcari.online@gmail.com">tcari.online@gmail.com</a>
-                </p>
-            </div>
-        </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
