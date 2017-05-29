@@ -32,7 +32,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    
+    <link rel="stylesheet" href="../backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -449,6 +449,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="1" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket1">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="1" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="1" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -492,6 +514,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="2" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket2">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="2" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="2" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -535,6 +579,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="3" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket3">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="3" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="3" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -578,6 +644,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="4" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket4">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="4" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="4" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -621,6 +709,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="5" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket5">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="5" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="5" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -664,6 +774,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="6" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket6">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="6" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="6" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -704,6 +836,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="7" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket7">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="7" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="7" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -742,6 +896,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="8" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket8">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="8" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="8" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -780,6 +956,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="9" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket9">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="9" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="9" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -818,6 +1016,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="10" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket10">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="10" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="10" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -856,6 +1076,28 @@
                                     </strong>
                                 </li>
                             </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="11" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket11">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="11" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="11" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -894,44 +1136,28 @@
                                     </strong>
                                 </li>
                             </ul>
-                            <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Charger Laptop Acer</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/charger.jpg" class="img-responsive img-centered" alt="">
-                            <p>Saya telah menemukan charger laptop acer</p>
-                            <ul class="list-inline item-details" style="margin-bottom:7px">
-                                <li>Lokasi ditemukan:
-                                    <strong><a href="">PB1</a>
-                                    </strong>
-                                </li>
-                            <ul class="list-inline item-details" style="margin-top:7px">
-                                <li>Ditemukan oleh:
-                                    <strong><a href="">User</a>
-                                    </strong>
-                                </li>
-                                <li>Tanggal ditemukan:
-                                    <strong><a href="">30 April 2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            <?php if (isset( $_SESSION['login'])){ ?>
+                            <div class="col-lg-12"  style="margin-bottom:7px">
+                                <a id="12" class="portfolio-link btn btn-success" onclick="add_element(this.id)">Kirim Pesan</a>
+                                <div style="display:none" id="ket12">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Subject:">
+                                    </div>
+                                    <p class="form-control">Pertanyaan keamanan ?</p>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Jawaban">
+                                    </div>
+                                    <textarea class="form-control compose-textarea" style="height: 100px;"></textarea>
+                                    <div class="form-group" style="margin-top:7px">
+                                        <input type="file" accept='image/*' name="cost"  onchange="readURL(this);" >
+                                        <img id="ilang" src="" class="img-circle" style="display: block;margin: 0 auto;" alt="" />
+                                    </div>
+                                    <div class="pull-right" style="margin-top:7px">
+                                        <button id="12" class="btn" onclick="batal(this.id)">Batal</button>
+                                        <button id="12" class="btn btn-success" onclick="batal(this.id)" data-dismiss="modal">Kirim</button>
+                                    </div>
+                                </div>
+                            </div> <?php } ?>
                             <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -956,7 +1182,52 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+    <script src="../backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+    <!-- Page Script -->
+    <script>
+        function readURL(input) {
+                    if (input.files && input.files[0]) {
+                      var reader = new FileReader();
 
+                      reader.onload = function (e) {
+                        $('#ilang')
+                        .attr('src', e.target.result)
+                        .width(320)
+                        .height(150);
+                      };
+                      reader.readAsDataURL(input.files[0]);
+                    }
+                  }
+
+      function add_element(id){
+        var button = document.getElementById(id);
+        button.style.display ="none";
+
+        var element = document.getElementById("ket"+id);
+        element.style.display = "block";
+
+      }
+
+      function batal(id){
+        var element = document.getElementById("ket"+id);
+        element.style.display = "none";
+
+        var button = document.getElementById(id);
+        button.style.display ="inline-block";
+      }
+
+      $(function () {
+        //Add text editor
+        $(".compose-textarea").wysihtml5({
+        toolbar: {
+            "link": false, // Button to insert a link.
+            "image": false, // Button to insert an image.
+            
+          }
+        });
+      });
+
+    </script>
 </body>
 
 </html>
