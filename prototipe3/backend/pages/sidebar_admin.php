@@ -44,17 +44,17 @@
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-envelope"></i> <span>Message</span>
+            <i class="fa fa-envelope"></i> <span>Pesan</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="compose.php"><i class="fa fa-circle-o"></i> Compose</a></li>
-            <li><a href="inbox.php"><i class="fa fa-circle-o"></i> Inbox
+            <li><a href="tulis_pesan.php"><i class="fa fa-circle-o"></i> Tulis Pesan</a></li>
+            <li><a href="pesan_masuk.php"><i class="fa fa-circle-o"></i> Pesan Masuk
               <span class="label label-primary pull-right">12</span>
             </a></li>
-            <li><a href="send.php"><i class="fa fa-circle-o"></i> Send Message</a></li>
+            <li><a href="pesan_terkirim.php"><i class="fa fa-circle-o"></i> Pesan Terkirim</a></li>
           </ul>
         </li>
       </ul>
