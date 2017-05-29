@@ -64,10 +64,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="barang_hilang.php">Barang Hilang</a>
+                        <a href="#portfolio">Barang Hilang</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="barang_temuan.php">Barang Temuan</a>
+                        <a href="#portfolio2">Barang Temuan</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
