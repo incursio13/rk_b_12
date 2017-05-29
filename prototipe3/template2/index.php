@@ -2,9 +2,11 @@
 <?php session_start();
  if(isset($_GET['input'])){
     $_SESSION['login']='login';
+    $_SESSION['user']=$_GET['input'];
     header('Location: ../backend/pages/');
  }
  elseif (isset($_GET['logout'])) {
+    unset($_SESSION['user']);
     session_destroy();
     header('Location: index.php');
  }

@@ -101,7 +101,16 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="../dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Admin</span>
+              <?php
+                if (isset($_SESSION['login'])){
+                  if ($_SESSION['user']=='admin') {
+                    echo '<span class="hidden-xs">Admin</span>';
+                  }
+                  else
+                    echo '<span class="hidden-xs">'.$_SESSION['user'].'</span>';
+                }
+              ?>
+              
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -109,7 +118,7 @@
                 <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Admin - Web Developer
+                  Web Developer
                   <small>Member since May 2017</small>
                 </p>
               </li>

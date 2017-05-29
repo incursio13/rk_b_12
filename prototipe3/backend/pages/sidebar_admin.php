@@ -8,7 +8,16 @@
           <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Admin</p>
+          <?php
+          if (isset($_SESSION['login'])){
+            if ($_SESSION['user']=='admin') {
+              echo '<p>'.$_SESSION['user'].'</p>';
+            }
+            else
+              echo '<p>'.$_SESSION['user'].'</p>';
+          }
+          
+          ?>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -16,7 +25,14 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
-        <li><a href="add_user.php"><i class="fa fa-user"></i> <span>User</span></a></li>
+        <?php
+          if (isset($_SESSION['login'])){
+            if ($_SESSION['user']=='admin') {
+              echo '<li><a href="add_user.php"><i class="fa fa-user"></i> <span>User</span></a></li>';
+            }
+          }
+          
+          ?>       
         <li><a href="profil.php"><i class="fa fa-user"></i> <span>Profil</span></a></li>
         <li class="treeview">
           <a href="#">
