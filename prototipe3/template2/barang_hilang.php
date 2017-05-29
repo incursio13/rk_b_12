@@ -28,11 +28,14 @@
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
+<!--     <link href="css/custom.css" rel="stylesheet"> -->
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+  
 
 </head>
 
@@ -80,9 +83,25 @@
                     }
                     
                     ?>
+                    <li><a href="#" class="hide-search" data-command="toggle-search" data-placement="top"><i class="fa fa-search"></i></a></li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
+
+            <div class="row" style="display: none;">
+                <form method="POST" action="cari_barang_hilang.php" role="search">
+                    <div class="col-xs-12">
+                        <div class="input-group c-search">
+                            <input type="text" class="form-control" name="search" id="contact-list-search" placeholder="Search..." style="width: 45%; float: right;">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search text-muted"></span></button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -241,23 +260,7 @@
                     </div>
                 </div>       
         </div>
-
-       <!--  <div class="row">
-            <div class="col-md-3">
-                <h3> Pencarian Barang</h3>
-                <div class="list-group">    
-                    <div class="search">
-                        <form method="POST" action="cari_barang_hilang.php" role="search">
-                        <input type="text" name="cari" class="form-control" maxlength="30" placeholder="Search" />
-                        <br>
-                        <button type="submit" class="btn btn-primary btn-sm">Cari</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-            
+           
     </section>
 
     <!-- Footer -->
@@ -323,7 +326,6 @@
                         <div class="modal-body">
                             <h2>LOGIN</h2>
                             <hr class="star-primary">
-                            <!-- <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p> -->
                             <form action="index.php" method="get">
                                 <div class="form-group">
                                     <input class="form-control" name="input" type="text" placeholder="username" required>
@@ -1189,6 +1191,49 @@
         });
       });
 
+    </script>
+
+    <script>
+        $(function () {
+            /* BOOTSNIPP FULLSCREEN FIX */
+            if (window.location == window.parent.location) {
+                $('#back-to-bootsnipp').removeClass('hide');
+            }
+            
+            $('[data-toggle="tooltip"]').tooltip();
+            
+            $('#fullscreen').on('click', function(event) {
+                event.preventDefault();
+                window.parent.location = "http://bootsnipp.com/iframe/4l0k2";
+            });
+            $('a[href="#cant-do-all-the-work-for-you"]').on('click', function(event) {
+                event.preventDefault();
+                $('#cant-do-all-the-work-for-you').modal('show');
+            })
+            
+            $('[data-command="toggle-search"]').on('click', function(event) {
+                event.preventDefault();
+                $(this).toggleClass('hide-search');
+                
+                if ($(this).hasClass('hide-search')) {        
+                    $('.c-search').closest('.row').slideUp(100);
+                }else{   
+                    $('.c-search').closest('.row').slideDown(100);
+                }
+            })
+            
+            $('#contact-list').searchable({
+                searchField: '#contact-list-search',
+                selector: 'li',
+                childSelector: '.col-xs-12',
+                show: function( elem ) {
+                    elem.slideDown(100);
+                },
+                hide: function( elem ) {
+                    elem.slideUp( 100 );
+                }
+            })
+        });
     </script>
 </body>
 
